@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript language</title>
+</head>
+<body>
+    
+<h3> problem 01</h3> <br>
+
+ <Script>
+  var name = "saidul";
+  var age = 20;
+  var vallige = "chandpur"
+
+    document.write( "hey it's " + name + " <br/> i am " + age + " <br/>i live in " + vallige);
+
+
+ </Script>
+<br>
+<br>
+
+<h3> problem 02</h3> <br>
+
+<script>
+  var cgpa = 3.50;
+  var name = ' Saidul';
+
+document.write('cgpa: ' + cgpa + '  </br>name:' + name);
+
+</script>
+
+<br>
+<br>
+<h3> problem 03</h3> <br>
+<script>
+    var num1 = 300;
+    var num2 = 50;
+
+
+    if(num1>num2){
+       document.write('num1 is bigger')
+    }
+ else{
+       document.write('num2 is bigger')
+    }
+
+</script>
+<br>
+<br>
+<h3> problem 04</h3> <br>
+<script>
+
+ var num1 = 301;
+
+ if (num1 % 2 == 0) {
+   document.write('even number');
+ } 
+ else {
+   document.write('odd number');
+ }
+
+</script>
+
+<br>
+<br>
+<h3> problem 05</h3> <br>
+
+
+<script>
+ var num = 10;
+
+ if (num % 5 == 0 && num % 10 == 0) {
+   document.write('number is divisible with 5 and 10');
+ } else {
+    document.write('is not okey');
+ }
+
+</script>
+
+<br>
+<br>
+<h3> problem 06</h3> <br>
+
+<script>
+  var num1 = 80;
+  var num2 = 90;
+  var num3 = 50;
+
+
+  if(num1>num2 && num1>num3){
+    document.write('number 1 is bigger')
+  }
+  if(num2>num1 && num2>num3){
+    document.write('number 2 is bigger')
+  }
+  if(num3>num2 && num3>num1){
+    document.write('number 3 is bigger')
+  }
+</script>
+
+
+<br>
+<br>
+<h3> problem 06</h3> <br>
+<script>
+  var bangla = 70;
+  var english = 89;
+  var generalscience = 85; 
+  var socialoscience = 95;
+  var math = 98;
+  var religion = 90;
+  
+  var total =(bangla + english + generalscience + socialoscience + math + religion);
+      
+
+  var average = total/6;
+
+  var persciteng = (total*100)/600;
+
+
+
+    average = parseInt(persciteng);
+
+  document.write('average number :' + average + '</br>');
+
+  if(average >= 90 && average <=100){
+    document.write('grade A+')
+  }
+  if(average >= 80 && average <=90){
+    document.write('grade A')
+  }
+  if(average >= 70 && average <=80){
+    document.write('grade A-')
+  }
+  if(average >= 60 && average <=70){
+    document.write('grade B')
+  }
+  if(average >= 50 && average <=60){
+    document.write('grade B-')
+  }
+  if(average >= 40 && average <=50){
+    document.write('grade c')
+  }
+  if(average >= 33 && average <=40){
+    document.write('grade A+')
+  }
+   if(average >= 0 && average <33){
+    document.write('your are faild')
+  }
+ 
+
+
+</script>
+
+</br>
+</br>
+<h3> problem 07</h3> <br>
+
+<script>
+
+var num = 7;
+
+if(num>0){
+     document.write('positive number')
+}
+if(num<0){
+     document.write('negative number')
+}
+if(num==0){
+     document.write('zero')
+}
+</script>
+
+
+</br>
+</br>
+<h3> problem 08</h3> <br>
+
+<script>
+  var saide1 = 20;
+  var saide2 = 20;
+  var saide3 = 30;
+
+if(saide1 == saide2 && saide1 == saide3){
+   document.write('The Triangle is Equilateral')
+}
+if(saide1 == saide2 && saide1 != saide3){
+   document.write('scalene')
+}
+ if(saide1 != saide2 && saide1 != saide3){
+    document.write(' isosceles triangle')
+ }
+
+
+</script>
+
+
+
+</br>
+</br>
+<h3> problem 09</h3> <br>
+
+<script>
+  var siade1 = 30;
+  var siade2 = 30;
+  var siade3 = 10;
+
+if(siade1 + saide2 > saide3 ){
+  document.write('  possible to create a triangle.')
+}
+else{
+  document.write('not')
+}
+
+</script>
+
+
+</br>
+</br>
+<h3> problem 09</h3> <br>
+<script>
+  var unit = 1000;
+  var subtotal = 0;
+  var total = 0;
+
+  if(unit <= 50){
+    subtotal = unit*0.5
+  }
+  if(unit > 50 && unit <= 150){
+    subtotal = 50*0.5+(unit-50)*0.75;
+  }
+  if(unit > 150 && unit <=250){
+    subtotal = 50*0.5+ 100*0.75 + (unit-150)*1.20;
+  }
+if(unit > 250){
+    subtotal = 50*0.5+ 100*0.75 + 100*1.20 + (unit-250)*1.50;
+}
+
+  total = subtotal + subtotal*0.2
+
+  document.write("with out vat:" + subtotal +"</br>")
+  document.write( "with vat(20%)" + total)
+
+
+</script>
+
+
+</body>
+</html>
